@@ -22,6 +22,7 @@
 body {
   background-color: var(--primary-background);
   color: var(--primary-text-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .button {
@@ -33,4 +34,3 @@ body {
   background-color: var(--hover-button-color);
 }
 
-/* And so on... */
