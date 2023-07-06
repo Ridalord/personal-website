@@ -1,5 +1,36 @@
+:root {
+  --primary-background: #FFFFFF;
+  --secondary-background: #F5F5F5;
+
+  --primary-button-color: #FF4081;
+  --hover-button-color: #D81B60;
+  --button-text-color: #FFFFFF;
+
+  --primary-text-color: #333333;
+  --secondary-text-color: #777777;
+
+  --accent-color: #00BFA5;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--primary-background);
+  color: var(--primary-text-color);
+}
+
+.button {
+  background-color: var(--primary-button-color);
+  color: var(--button-text-color);
+}
+
+.button:hover {
+  background-color: var(--hover-button-color);
+}
+
+/* And so on... */
