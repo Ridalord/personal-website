@@ -10,6 +10,9 @@
   --secondary-text-color: #777777;
 
   --accent-color: #00BFA5;
+
+  --border-gradient-color1: #00C0FD;
+  --border-gradient-color2: #E70FAA;
 }
 
 
@@ -32,5 +35,24 @@ body {
 
 .button:hover {
   background-color: var(--hover-button-color);
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px 1%;
+  margin: auto;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 1;
+  color: var(--accent-color);
+}
+
+.navbar-toggler {
+  border: none;
 }
 
