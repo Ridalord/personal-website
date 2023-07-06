@@ -1,13 +1,13 @@
 :root {
-  --primary-background: #FFFFFF;
+  --primary-background: #191919;
   --secondary-background: #F5F5F5;
 
   --primary-button-color: #FF4081;
   --hover-button-color: #D81B60;
   --button-text-color: #FFFFFF;
 
-  --primary-text-color: #333333;
-  --secondary-text-color: #777777;
+  --primary-text-color: #A7A7A7;
+  --secondary-text-color: #D9D9D9;
 
   --accent-color: #00BFA5;
 
@@ -37,6 +37,11 @@ body {
   background-color: var(--hover-button-color);
 }
 
+.container{
+  margin: auto;
+  padding: 40px 30px;
+}
+
 .navbar {
   width: 100%;
   padding: 10px 1%;
@@ -49,10 +54,54 @@ body {
   font-weight: 800;
   font-size: 25px;
   line-height: 1;
-  color: var(--accent-color);
+  color: var(--primary-text-color);
 }
 
 .navbar-toggler {
   border: none;
 }
 
+.intro {
+  flex-direction: column;
+  /* text-align: center; */
+  align-items: center;
+  row-gap: 20px;
+  color: var(--secondary-text-color);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -9999999;
+}
+
+.hero {
+  height: 85vh;
+}
+
+.intro-avatar {
+  width: 200px;
+  padding: 2px;
+  border-radius: 5px;
+  border-radius: 50%;
+  /* border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1;  */
+  background-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2));
+}
+
+.intro-avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.intro-header {
+  font-weight: 700;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+.intro-header span {
+  background-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
