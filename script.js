@@ -63,7 +63,7 @@ const portfolioItems = [
   {
     id: 'businessId',
     title: 'My Buisness ID',
-    img: 'img/portfolio2.png',
+    img: 'img/portfolio2.PNG',
     description: "Welcome to my personal website, where I showcase my skills, experience, and interests as a frontend developer. Explore my expertise in HTML5, CSS, JavaScript, React.js, and SEO, along with my personal interests. Connect with me on social media.",
     stack: 'HTML, CSS, React',
     preview: 'https://ridalord.github.io/rolleyDicey/',
@@ -72,7 +72,7 @@ const portfolioItems = [
   {
     id: 'rolleyDicey',
     title: 'Rolley Dicey',
-    img: 'img/rolleyDicey.png',
+    img: 'img/rolleyDicey.PNG',
     description: "Rolley Dicey is a dynamic and exciting dice game. It provides a user-friendly interface where two players compete to reach a target score by rolling the dice. With its intuitive design and engaging gameplay, Rolley Dicey offers an enjoyable experience for dice game enthusiasts.",
     stack: 'HTML, CSS, JavaScript',
     preview: 'https://ridalord.github.io/rolleyDicey/',
@@ -81,7 +81,7 @@ const portfolioItems = [
   {
     id: 'lifestyle',
     title: 'The 360 Lifestyle',
-    img: 'img/lifestyle.png',
+    img: 'img/lifestyle.PNG',
     description: "Experience a lifestyle website that offers a captivating blog and seamless affiliate marketing. Discover inspiring content and conveniently explore recommended products in one place.",
     stack: 'HTML, CSS, JavaScript',
     preview: 'https://ridalord.github.io/the_360_lifestyle/index.html',
@@ -90,7 +90,7 @@ const portfolioItems = [
   {
     id: 'yhwhtech',
     title: 'YHWH Tech',
-    img: 'img/yhwhtech.png',
+    img: 'img/yhwhtech.PNG',
     description: "The stockbroker site is a user-friendly platform for seamless stock trading and investment. It provides real-time market data, advanced tools, and personalized features to help users make informed investment decisions and manage their portfolios effectively.",
     stack: 'HTML, CSS, JavaScript, Bootstrap',
     preview: 'https://ridalord.github.io/yhw-tech/',
