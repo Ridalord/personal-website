@@ -15,6 +15,22 @@ navLinks.forEach(function (link) {
   });
 });
 
+window.addEventListener("scroll", function () {
+  var sections = document.querySelectorAll("section");
+  var navLinks = document.querySelectorAll(".nav-link");
+
+  sections.forEach(function (section, index) {
+    var rect = section.getBoundingClientRect();
+    if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+      navLinks.forEach(function (link) {
+        link.classList.remove("active");
+      });
+      navLinks[index].classList.add("active");
+    }
+  });
+});
+
+
 
 const experienceDetails = [
   {
