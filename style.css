@@ -65,6 +65,9 @@ textarea:focus {
 .button:hover {
   background-color: var(--hover-button-color);
 }
+.button:focus {
+  border: none;
+}
 
 .container{
   margin: auto;
@@ -80,6 +83,12 @@ textarea:focus {
   /* border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1; */
   background-color: var(--primary-background) !important;
 }
+.nav-link {
+  color: var(--primary-text-color);
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .logo {
   font-family: 'IBM Plex Mono', monospace;
 }
@@ -92,15 +101,11 @@ textarea:focus {
 }
 
 .navbar-toggler {
-  border: none;
-    /* color: white; */
+  border: none !important;
 }
-.navbar-toggler span {
-  /* background-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2));
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent; */
-      /* color: white; */
+.navbar-toggler i {
+  color: var(--secondary-background);
+  font-size: 30px;
 }
 
 .intro {
@@ -139,7 +144,7 @@ textarea:focus {
   line-height: 1.5em;
 }
 
-.intro-header span, .logo {
+.intro-header span, .logo, .navbar-nav .nav-link.active {
   background-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2));
   background-clip: text;
   -webkit-background-clip: text;
