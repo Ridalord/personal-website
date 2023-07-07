@@ -120,7 +120,7 @@ ul {
   border-bottom: 2px solid;
   width: fit-content;
   border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .section-text {
   color: var(--primary-text-color);
@@ -168,4 +168,30 @@ ul {
   height: 70px;
   text-align: center;
   font-weight: 600;
+}
+.experience-item {
+  padding-bottom: 23px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1;
+}
+.experience-item img {
+  width: 16px;
+  height: 12px;
+  margin: auto 0;
+  margin-right: 5px;
+}
+.pos-loc p, .type-date {
+  justify-content: space-between;
+}
+.type {
+  color: #018C0F;
+  background-color: #D7FFE0;
+  padding: 1px 21px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 26px;
+}
+.type-date p{
+  margin-bottom: 0;
 }
