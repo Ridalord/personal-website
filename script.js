@@ -4,7 +4,7 @@ const experienceDetails = [
     position: 'Web Developer',
     company: 'Removals &amp; Selfstorage Ltd.',
     location: 'Isligton, UK',
-    jobType: 'contract',
+    jobType: 'Contract',
     startDate: 'Feb. 2023',
     endDate: 'Date'
   },
@@ -13,7 +13,7 @@ const experienceDetails = [
     position: 'IT Support',
     company: 'ABOLTECH',
     location: 'Lagos, Nigeria',
-    jobType: 'contract',
+    jobType: 'Contract',
     startDate: 'Sep. 2022',
     endDate: 'Oct. 2022'
   },
@@ -22,7 +22,7 @@ const experienceDetails = [
     position: 'Engineer Intern',
     company: 'Joe-Akins Computers Technologies Limited',
     location: 'Lagos, Nigeria',
-    jobType: 'contract',
+    jobType: 'Internship',
     startDate: 'Aug. 2019',
     endDate: 'Dec. 2019'
   }
