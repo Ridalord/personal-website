@@ -196,6 +196,10 @@ ul {
 .type-date p{
   margin-bottom: 0;
 }
+.project-wrap {
+  flex-direction: column;
+  gap: 20px;
+}
 .project-item {
   background-color: #363636;
   border-radius: 20px;
