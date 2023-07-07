@@ -80,6 +80,9 @@ textarea:focus {
   /* border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1; */
   background-color: var(--primary-background) !important;
 }
+.logo {
+  font-family: 'IBM Plex Mono', monospace;
+}
 
 .navbar-brand {
   font-weight: 800;
@@ -136,7 +139,7 @@ textarea:focus {
   line-height: 1.5em;
 }
 
-.intro-header span {
+.intro-header span, .logo {
   background-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2));
   background-clip: text;
   -webkit-background-clip: text;
