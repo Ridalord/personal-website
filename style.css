@@ -152,6 +152,7 @@ textarea:focus {
 .logo, .navbar-nav .nav-link.active,
 .nav-link.nav-link:hover,
 .contact-links a:hover,
+.footer-section span,
 .footer-nav a:hover {
   background-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2));
   background-clip: text;
@@ -379,5 +380,26 @@ footer {
   }
   .contact-form {
     width: 75%;
+  }
+  footer {
+    padding: 0 6%;
+  }
+  .footer-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+  }
+  .footer-section.top{
+    padding-bottom: 53px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1;
+  }
+  .contact-links {
+    flex-direction: row;
+    column-gap: 30px;
+  }
+  .footer-nav {
+    flex-direction: row;
+    column-gap: 30px;
   }
 }
