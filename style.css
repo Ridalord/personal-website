@@ -173,6 +173,7 @@ ul {
   padding-bottom: 23px;
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2)) 1;
+  margin-bottom: 20px;
 }
 .experience-item img {
   width: 16px;
