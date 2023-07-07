@@ -22,6 +22,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--primary-background);
   color: var(--primary-text-color);
@@ -144,7 +148,11 @@ textarea:focus {
   line-height: 1.5em;
 }
 
-.intro-header span, .logo, .navbar-nav .nav-link.active {
+.intro-header span,
+.logo, .navbar-nav .nav-link.active,
+.nav-link.nav-link:hover,
+.contact-links a:hover,
+.footer-nav a:hover {
   background-image: linear-gradient(to right, var(--border-gradient-color1), var(--border-gradient-color2));
   background-clip: text;
   -webkit-background-clip: text;

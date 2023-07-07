@@ -1,3 +1,21 @@
+const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+navLinks.forEach(function (link) {
+  link.addEventListener('click', function () {
+    navLinks.forEach(function (link) {
+      link.classList.remove('active');
+    });
+    this.classList.add('active');
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    if (navbarToggler.classList.contains('collapsed')) {
+      // Navbar is already collapsed, do nothing
+      return;
+    }
+    navbarToggler.click();
+  });
+});
+
+
 const experienceDetails = [
   {
     id: 'dev',
