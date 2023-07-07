@@ -377,4 +377,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     row-gap: 40px;
   }
+  .contact-form {
+    width: 75%;
+  }
 }
