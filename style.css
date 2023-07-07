@@ -440,4 +440,11 @@ footer {
     justify-content: space-between;
     column-gap: 100px;
   }
+  .project-wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .carousel {
+    width: 75%;
+    margin: auto;
+  }
 }

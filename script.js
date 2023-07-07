@@ -109,7 +109,7 @@ const portfolioItems = [
     id: 'yhwhtech',
     title: 'YHWH Tech',
     img: 'img/yhwhtech.jpg',
-    description: "The stockbroker site is a user-friendly platform for seamless stock trading and investment. It provides real-time market data, advanced tools, and personalized features to help users make informed investment decisions and manage their portfolios effectively.",
+    description: "The stockbroker site is a user-friendly platform for seamless stock trading and investment. It provides advanced tools and personalized features to help users manage their portfolios effectively.",
     stack: 'HTML, CSS, JavaScript, Bootstrap',
     preview: 'https://ridalord.github.io/yhw-tech/',
     code: 'https://github.com/Ridalord/yhw-tech'
