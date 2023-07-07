@@ -369,4 +369,7 @@ footer {
   .dev-about {
     grid-column: 2/3;
   }
+  .stack-item {
+    column-gap: 50px;
+  }
 }
