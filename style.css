@@ -372,4 +372,9 @@ footer {
   .stack-item {
     column-gap: 50px;
   }
+  .project-wrap {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+  }
 }
