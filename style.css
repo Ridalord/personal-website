@@ -332,3 +332,41 @@ footer {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+
+
+@media (min-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+  .intro {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 80%;
+    top: 40%;
+  }
+  .intro-avatar {
+    width: 350px;
+  }
+  .intro-header{
+    text-align: left;
+    margin: 0 !important;
+
+  }
+  .dev-content {
+    /* flex-direction: row; */
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .about-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .dev-avatar {
+    width: 100%;
+    grid-column: 1/2;
+  }
+  .dev-about {
+    grid-column: 2/3;
+  }
+}
