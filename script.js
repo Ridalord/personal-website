@@ -54,7 +54,7 @@ const portfolioItems = [
   {
     id: 'portfolio1',
     title: 'React Portfolio',
-    img: 'img/Capture.PNG',
+    img: 'img/Capture.jpg',
     description: 'Discover the power of modern web development as you navigate through a collection of my projects. With a sleek design and seamless interactivity, this portfolio showcases my expertise in building engaging and responsive web experiences.',
     stack: 'HTML, CSS, React, Bootstrap',
     preview: 'https://ridalord.github.io/react-portfolio/',
@@ -63,7 +63,7 @@ const portfolioItems = [
   {
     id: 'businessId',
     title: 'My Buisness ID',
-    img: 'img/portfolio2.PNG',
+    img: 'img/portfolio2.jpg',
     description: "Welcome to my personal website, where I showcase my skills, experience, and interests as a frontend developer. Explore my expertise in HTML5, CSS, JavaScript, React.js, and SEO, along with my personal interests. Connect with me on social media.",
     stack: 'HTML, CSS, React',
     preview: 'https://ridalord.github.io/rolleyDicey/',
@@ -81,7 +81,7 @@ const portfolioItems = [
   {
     id: 'lifestyle',
     title: 'The 360 Lifestyle',
-    img: 'img/lifestyle.PNG',
+    img: 'img/lifestyle.jpg',
     description: "Experience a lifestyle website that offers a captivating blog and seamless affiliate marketing. Discover inspiring content and conveniently explore recommended products in one place.",
     stack: 'HTML, CSS, JavaScript',
     preview: 'https://ridalord.github.io/the_360_lifestyle/index.html',
@@ -90,7 +90,7 @@ const portfolioItems = [
   {
     id: 'yhwhtech',
     title: 'YHWH Tech',
-    img: 'img/yhwhtech.PNG',
+    img: 'img/yhwhtech.jpg',
     description: "The stockbroker site is a user-friendly platform for seamless stock trading and investment. It provides real-time market data, advanced tools, and personalized features to help users make informed investment decisions and manage their portfolios effectively.",
     stack: 'HTML, CSS, JavaScript, Bootstrap',
     preview: 'https://ridalord.github.io/yhw-tech/',
