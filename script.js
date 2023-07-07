@@ -1,11 +1,16 @@
 const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
+// Event listener for each navigation link
 navLinks.forEach(function (link) {
   link.addEventListener('click', function () {
+    // Remove active class from all links
     navLinks.forEach(function (link) {
       link.classList.remove('active');
     });
+    // Add active class to clicked link
     this.classList.add('active');
+
+    // Close the collapsed navbar menu
     const navbarToggler = document.querySelector('.navbar-toggler');
     if (navbarToggler.classList.contains('collapsed')) {
       // Navbar is already collapsed, do nothing
@@ -15,23 +20,22 @@ navLinks.forEach(function (link) {
   });
 });
 
-window.addEventListener("scroll", function () {
-  var sections = document.querySelectorAll("section");
-  var navLinks = document.querySelectorAll(".nav-link");
+// Function to handle scrolling and changing active link
+window.addEventListener('scroll', function () {
+  var sections = document.querySelectorAll('section');
+  var navLinks = document.querySelectorAll('.nav-link');
 
   sections.forEach(function (section, index) {
     var rect = section.getBoundingClientRect();
     if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
       navLinks.forEach(function (link) {
-        link.classList.remove("active");
+        link.classList.remove('active');
       });
-      navLinks[index].classList.add("active");
+      navLinks[index].classList.add('active');
     }
   });
 });
-
-
-
+// Experience details data
 const experienceDetails = [
   {
     id: 'dev',
@@ -61,8 +65,7 @@ const experienceDetails = [
     endDate: 'Dec. 2019'
   }
 ]
-
-
+// Render experience items
 const experienceWrap = document.querySelector('.experience-wrap')
 if (experienceWrap) {
   for (let i = 0; i < experienceDetails.length; i++){
@@ -84,6 +87,8 @@ if (experienceWrap) {
   }
 }
 
+
+// Portfolio items data
 const portfolioItems = [
   {
     id: 'portfolio1',
@@ -131,6 +136,8 @@ const portfolioItems = [
     code: 'https://github.com/Ridalord/yhw-tech'
   }
 ]
+
+// Render portfolio items
 const projectWrap = document.querySelector('.project-wrap')
 if (projectWrap) {
   for (let i = 0; i < portfolioItems.length; i++){
@@ -155,6 +162,8 @@ if (projectWrap) {
   }
 }
 
+
+// Reset form fields on page reload or exit
 window.onbeforeunload = () => {
   for (const form of document.getElementsByTagName('form')) {
     form.reset();
